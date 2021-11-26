@@ -28,7 +28,10 @@ export default function Home() {
     <div style={{width:'100%'}}>
        <Slider {...settings}>
          <div className="slide">
-            <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+           <div style={{padding:10}}>
+           <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+
+           </div>
 
          </div>
          <div className="slide">
