@@ -9,18 +9,19 @@ export default function Home() {
     slidesToScroll: 1
   };
   return (
-    <div style={{width:'50%'}}>
+    <div style={{width:'50%',height:292}}>
        {/* <Slider {...settings}>
-         <div>
-          <Image objectFit="contain" src="/wts1.jpg" alt="img" width={400} height={200} layout="responsive" />
+          <div style={{width:640,height:292,position:'relative',border:'1px solid'}}>
+          <Image  src="/wts1.jpg" alt="img"  layout="fill" />
           </div>
-          <div>
-          <Image objectFit="contain" src="/wts2.jpg" alt="img" width={400} height={200} layout="responsive"/>
+          <div style={{width:640,height:292,position:'relative'}}>
+          <Image  src="/wts2.jpg" alt="img"  layout="fill"/>
           </div>
        </Slider> */}
-       <div style={{width:640,height:292,position:'relative'}}>
-          <Image  src="/wts1.jpg" alt="img" layout="fill"  />
-       </div>
+       
+       {/* <div style={{width:640,height:292,position:'relative'}}> */}
+          <Image width={640} height={292} src="/wts1.jpg" alt="img" layout="fixed"  />
+       {/* </div> */}
     </div>
   ) 
 }
