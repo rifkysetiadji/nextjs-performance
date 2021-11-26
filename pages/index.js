@@ -12,10 +12,10 @@ export default function Home() {
     <div style={{width:'50%'}}>
        <Slider {...settings}>
          <div>
-          <Image src="/wts1.jpg" alt="img" width={400} height={200} />
+          <Image objectFit="contain" src="/wts1.jpg" alt="img" width={400} height={200} layout="responsive" />
           </div>
           <div>
-          <Image src="/wts2.jpg" alt="img" width={400} height={200} />
+          <Image objectFit="contain" src="/wts2.jpg" alt="img" width={400} height={200} layout="responsive"/>
           </div>
        </Slider>
     </div>
