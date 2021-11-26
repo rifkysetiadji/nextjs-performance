@@ -18,7 +18,9 @@ export default function Home() {
           <Image objectFit="contain" src="/wts2.jpg" alt="img" width={400} height={200} layout="responsive"/>
           </div>
        </Slider> */}
-       <Image  src="/wts1.jpg" alt="img" width={640} height={292}  />
+       <div style={{width:640,height:292,position:'relative'}}>
+          <Image  src="/wts1.jpg" alt="img" layout="fill"  />
+       </div>
     </div>
   ) 
 }
