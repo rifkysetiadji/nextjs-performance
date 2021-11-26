@@ -10,14 +10,15 @@ export default function Home() {
   };
   return (
     <div style={{width:'50%'}}>
-       <Slider {...settings}>
+       {/* <Slider {...settings}>
          <div>
           <Image objectFit="contain" src="/wts1.jpg" alt="img" width={400} height={200} layout="responsive" />
           </div>
           <div>
           <Image objectFit="contain" src="/wts2.jpg" alt="img" width={400} height={200} layout="responsive"/>
           </div>
-       </Slider>
+       </Slider> */}
+       <Image objectFit="contain" src="/wts1.jpg" alt="img" width={400} height={200} layout="responsive" />
     </div>
   ) 
 }
