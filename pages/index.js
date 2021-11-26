@@ -10,17 +10,13 @@ export default function Home() {
   };
   return (
     <div style={{width:'50%',height:292}}>
-       {/* <Slider {...settings}>
-          <div style={{width:640,height:292,position:'relative',border:'1px solid'}}>
-          <Image  src="/wts1.jpg" alt="img"  layout="fill" />
-          </div>
-          <div style={{width:640,height:292,position:'relative'}}>
-          <Image  src="/wts2.jpg" alt="img"  layout="fill"/>
-          </div>
-       </Slider> */}
+       <Slider {...settings}>
+       <Image width={640} height={292} src="/wts1.jpg" alt="img" layout="fixed"  />
+       <Image width={640} height={292} src="/wts2.jpg" alt="img" layout="fixed"  />
+       </Slider>
        
        {/* <div style={{width:640,height:292,position:'relative'}}> */}
-          <Image width={640} height={292} src="/wts1.jpg" alt="img" layout="fixed"  />
+          {/* <Image width={640} height={292} src="/wts1.jpg" alt="img" layout="fixed"  /> */}
        {/* </div> */}
     </div>
   ) 
