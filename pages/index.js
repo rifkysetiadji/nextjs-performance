@@ -28,22 +28,16 @@ export default function Home() {
     <div style={{width:'100%'}}>
        <Slider {...settings}>
          <div className="slide">
-          <div >
             <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
 
-          </div>
          </div>
          <div className="slide">
-          <div >
             <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="responsive"  />
 
-          </div>
          </div>
          <div className="slide">
-          <div >
             <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="responsive"  />
 
-          </div>
          </div>
          
        
