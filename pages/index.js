@@ -27,9 +27,26 @@ export default function Home() {
   return (
     <div style={{width:'100%'}}>
        <Slider {...settings}>
-       <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
-       <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="responsive"  />
-       <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="responsive"  />
+         <div className="slide">
+          <div style={{padding:10}}>
+            <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+
+          </div>
+         </div>
+         <div className="slide">
+          <div style={{padding:10}}>
+            <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="responsive"  />
+
+          </div>
+         </div>
+         <div className="slide">
+          <div style={{padding:10}}>
+            <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="responsive"  />
+
+          </div>
+         </div>
+         
+       
        {/* <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="fixed"  />
        <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="fixed"  />
        <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="fixed"  /> */}
