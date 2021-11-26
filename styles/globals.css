@@ -14,3 +14,31 @@ a {
 * {
   box-sizing: border-box;
 }
+.slick-active { 
+  padding: 20px 0; 
+}
+
+.slick-center { 
+  transform: scale(1,1.1) ;
+  z-index: 300;
+  position: relative;
+}
+
+.slick-slide:not(.slick-active) { 
+  margin: 20px 0; 
+
+}
+
+.child { 
+  width:100%; 
+}
+.slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+
+.slick-slider:hover .slick-arrow{
+  display: flex!important;
+}
+.slick-arrow{
+  display: none!important;
+}
