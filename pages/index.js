@@ -26,7 +26,7 @@ export default function Home() {
   };
   return (
     <div style={{width:'100%'}}>
-       {/* <Slider {...settings}>
+       <Slider {...settings}>
          <div className="slide">
             <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
 
@@ -42,8 +42,8 @@ export default function Home() {
          
        
       
-       </Slider> */}
-       <h1>Hello</h1>
+       </Slider>
+       {/* <h1>Hello</h1> */}
     </div>
   ) 
 }
