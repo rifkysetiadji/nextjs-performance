@@ -26,7 +26,7 @@ export default function Home() {
   };
   return (
     <div style={{width:'100%'}}>
-       <Slider {...settings}>
+       {/* <Slider {...settings}>
          <div className="slide">
             <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
 
@@ -41,14 +41,9 @@ export default function Home() {
          </div>
          
        
-       {/* <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="fixed"  />
-       <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="fixed"  />
-       <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="fixed"  /> */}
-       </Slider>
-       
-       {/* <div style={{width:640,height:292,position:'relative'}}> */}
-          {/* <Image width={640} height={292} src="/wts1.jpg" alt="img" layout="fixed"  /> */}
-       {/* </div> */}
+      
+       </Slider> */}
+       <h1>Hello</h1>
     </div>
   ) 
 }
