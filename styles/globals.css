@@ -56,9 +56,24 @@ a {
     display: block!important;
   }
 }
-    .slick-slide {
-      margin: 0 27px;
-    }
-    .slick-list {
-      margin: 0 -27px;
-    }
+/* .slick-slide {
+    margin: 0 27px;
+    border: 1px solid;
+    overflow: hidden;
+
+}
+.slick-list {
+    margin: 0 -27px;
+    overflow: hidden;
+} */
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-list {
+  margin: 0 0px !important;
+}
+
+.slick-slide > div {
+  padding: 0 7px !important;
+}
