@@ -32,7 +32,7 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={500} height={525}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
 
            </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={500} height={525}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
 
            </div>
          </div>
@@ -51,7 +51,7 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={500} height={525}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
 
            </div>
          </div>
