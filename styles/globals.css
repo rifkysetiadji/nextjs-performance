@@ -42,11 +42,23 @@ a {
 .slick-arrow{
   display: none!important;
 }
-    /* the slides */
-    .slick-slide {
+.show-mobile{
+  display: none!important;
+}
+.remove-mobile{
+  display: block!important;
+}
+@media screen and (max-width:668px) { 
+  .remove-mobile{
+    display: none!important;
+  }
+  .show-mobile{
+    display: block!important;
+  }
+}
+    /* .slick-slide {
       margin: 0 27px;
     }
-    /* the parent */
     .slick-list {
       margin: 0 -27px;
-    }
+    } */
