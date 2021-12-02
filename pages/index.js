@@ -45,12 +45,12 @@ export default function Home() {
          <div className="slide">
          <div className="remove-mobile">
              <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-              <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+              <Image width={958} height={392} src="/wts2.jpg" alt="img" layout="responsive"  />
               </div>
            </div>
            <div className="show-mobile">
              <div style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
-              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+              <Image   objectFit="fill"src={`/wtsm2.jpg`} alt="" layout="fill"/>
 
              </div>
 
@@ -59,12 +59,12 @@ export default function Home() {
          <div className="slide">
          <div className="remove-mobile">
              <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-              <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+              <Image width={958} height={392} src="/wts3.jpg" alt="img" layout="responsive"  />
               </div>
            </div>
            <div className="show-mobile">
              <div style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
-              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+              <Image   objectFit="fill"src={`/wtsm3.jpg`} alt="" layout="fill"/>
 
              </div>
 
