@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   const settings = {
     className: "banner-carousel",
-        // centerMode: true,
+        centerMode: true,
     dots: true,
     infinite: true,
     speed: 500,
@@ -32,7 +32,10 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+             <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+
+             </div>
 
            </div>
 
@@ -42,8 +45,10 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+           <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
+             </div>
            </div>
          </div>
          <div className="slide">
@@ -51,8 +56,10 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-            <Image width={100} height={100}  src={`/wtsm1.jpg`} alt="" layout="responsive"/>
+           <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
+             </div>
            </div>
          </div>
          
