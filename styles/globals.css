@@ -68,6 +68,7 @@ a {
 } */
 .slick-slider {
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .slick-list {
@@ -76,4 +77,6 @@ a {
 
 .slick-slide > div {
   padding: 0 7px !important;
+  /* border: 1px solid; */
+
 }

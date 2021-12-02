@@ -29,10 +29,12 @@ export default function Home() {
        <Slider {...settings}>
          <div className="slide">
            <div className="remove-mobile">
+             <div style={{borderRadius: '10px', overflow: 'hidden'}}>
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+              </div>
            </div>
            <div className="show-mobile">
-             <div style={{width:'100%',height:350,position:'relative'}}>
+             <div style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
               <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
              </div>
@@ -42,24 +44,30 @@ export default function Home() {
          </div>
          <div className="slide">
          <div className="remove-mobile">
+             <div style={{borderRadius: '10px', overflow: 'hidden'}}>
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+              </div>
            </div>
            <div className="show-mobile">
-           <div style={{width:'100%',height:350,position:'relative'}}>
-              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
+             <div style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
+              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
              </div>
+
            </div>
          </div>
          <div className="slide">
-          <div className="remove-mobile">
+         <div className="remove-mobile">
+             <div style={{borderRadius: '10px', overflow: 'hidden'}}>
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
+              </div>
            </div>
            <div className="show-mobile">
-           <div style={{width:'100%',height:350,position:'relative'}}>
-              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
+             <div style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
+              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
              </div>
+
            </div>
          </div>
          
