@@ -32,13 +32,10 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-             <div style={{padding:10}}>
-              <div style={{width:'100%',height:350,position:'relative'}}>
-                <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+             <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
-              </div>
              </div>
-             
 
            </div>
 
@@ -48,11 +45,9 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-           <div style={{padding:10}}>
-              <div style={{width:'100%',height:350,position:'relative'}}>
-                <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+           <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
-              </div>
              </div>
            </div>
          </div>
@@ -61,11 +56,9 @@ export default function Home() {
               <Image width={958} height={392} src="/wts1.jpg" alt="img" layout="responsive"  />
            </div>
            <div className="show-mobile">
-           <div style={{padding:10}}>
-              <div style={{width:'100%',height:350,position:'relative'}}>
-                <Image   objectFit="fill"src={`/wtsm1.jpg`} alt="" layout="fill"/>
+           <div style={{width:'100%',height:350,position:'relative'}}>
+              <Image objectFit="fill"  src={`/wtsm1.jpg`} alt="" layout="fill"/>
 
-              </div>
              </div>
            </div>
          </div>
