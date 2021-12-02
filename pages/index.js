@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   const settings = {
     className: "banner-carousel",
-        centerMode: true,
+        // centerMode: true,
     dots: true,
     infinite: true,
     speed: 500,
